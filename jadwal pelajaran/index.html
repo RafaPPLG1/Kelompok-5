@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aplikasi Jadwal Pelajaran</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📚 Aplikasi Jadwal Pelajaran</h1>
+
+    <div class="input-section">
+      <label>Masukkan Hari:</label>
+      <input type="text" id="hari" placeholder="contoh: Senin" />
+
+      <label>Masukkan Nama Pelajaran:</label>
+      <input type="text" id="pelajaran" placeholder="contoh: Matematika" />
+
+      <label>Masukkan Jam Pelajaran:</label>
+      <input type="text" id="jam" placeholder="contoh: 07.00 - 08.00" />
+
+      <div class="buttons">
+        <button onclick="tambahPelajaran()">Tambah Pelajaran</button>
+        <button onclick="tampilkanJadwal()">Tampilkan Jadwal</button>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="search-section">
+      <h3>🔍 Cari Jadwal Hari Tertentu</h3>
+      <input type="text" id="cariHari" placeholder="contoh: Senin" />
+      <button onclick="cariJadwal()">Cari</button>
+      <div id="hasilCari"></div>
+    </div>
+
+    <hr>
+
+    <div id="output"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,67 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #eef3f9;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.container {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  width: 420px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.input-section, .search-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#output, #hasilCari {
+  margin-top: 20px;
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.jadwal-item {
+  margin-bottom: 10px;
+}
+
+.hapus-btn {
+  background-color: #dc3545;
+  margin-left: 10px;
+}
+
+.hapus-btn:hover {
+  background-color: #a71d2a;
+}
